@@ -341,9 +341,8 @@ import PDFKit
                 }
                 .navigationTitle("Add Moment")
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button("Cancel") { dismiss() }
-                    }
+                    
+                    
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button("Save") {
                             let imageDatas = selectedImages.compactMap { $0.jpegData(compressionQuality: 0.8) }
